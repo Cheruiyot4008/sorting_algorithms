@@ -9,15 +9,15 @@
  */
 void print_array(const int *array, size_t size)
 {
-	size_t i;
+	size_t f;
 
-	i = 0;
-	while (array && i < size)
+	f = 0;
+	while (array && f < size)
 	{
-		if (i > 0)
+		if (f > 0)
 			printf(", ");
-		printf("%d", array[i]);
-		++i;
+		printf("%d", array[f]);
+		++f;
 	}
 	printf("\n");
 }
